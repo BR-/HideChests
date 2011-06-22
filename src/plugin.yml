@@ -1,0 +1,13 @@
+name: HideChests
+version: 0.1
+main: me.br_.minecraft.bukkit.hidechests.HCMain
+author: BR_
+commands:
+    hc:
+        usage: "Usage:
+        /hc - Remove all modes
+        /hc add - Chests you punch will become hidden
+        /hc remove - Chests you punch will become unhidden
+        /hc persist - You will be able to punch more than one chest with either of the above modes
+        /hc save - Saves all chests (op only)
+        You can combine add or remove with persist, e.g. /hc add persist"
